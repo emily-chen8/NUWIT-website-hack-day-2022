@@ -79,7 +79,7 @@ and press enter...
 
 You should now have this repo on your machine!
 <a name="bare-bones"></a>
-## Bare Bones HTML 
+## HTML_CSS
 <a name="edit-html"></a>
 ### Edit some HTML
 In your editor, open the `hack_day_2020/bare_bones` folder. 
@@ -389,6 +389,26 @@ And if you want to add only specific weights:
 Each font will have different weights, or sometimes, only one weight. Check which weights are available for your chosen font
 
 <a name="wrap-up"></a>
+## React
+Make sure you install [Node.js](https://nodejs.org/en/)  
+
+Open your terminal.
+
+Check that you have the correct versions of node and npm:
+``` node -v ``` 
+Should output around v16.13.1 and 
+```npm -v ```
+Should be above 5.2.0.
+
+Create a react project with the name `react-tutorial`.
+```npx create-react-app react-tutorial```
+
+Cd into your project.
+```cd react-tutorial```
+
+See your app on your local host.
+```npm start```
+
 ## Wrap-Up 
 Feel free to delete the starter files. Make sure your final `index.html` is at the root of your directory. 
 
